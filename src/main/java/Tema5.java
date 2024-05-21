@@ -1,6 +1,9 @@
 public class Tema5 {
 
     public static void main(String[] args) {
+
+
+
         // Tipos de datos primitivos
         byte b = 10;        // byte: 8 bits, rango de -128 a 127
         short s = 20000;    // short: 16 bits, rango de -32768 a 32767
@@ -8,11 +11,11 @@ public class Tema5 {
         long l = 100000L;   // long: 64 bits, rango de -2^63 a 2^63-1
         float f = 5.75f;    // float: 32 bits, rango de aproximadamente ±3.4E+38 (precisión simple)
         double d = 19.99;   // double: 64 bits, rango de aproximadamente ±1.8E+308 (precisión doble)
-        char c = 'A';       // char: 16 bits, un solo carácter Unicode
+        char c = 'Z';       // char: 16 bits, un solo carácter Unicode
         boolean bool = true;// boolean: 1 bit, valores true o false
 
         // Declaración de variables
-        int numero1 = 5;
+        int numero1 = 4;
         int numero2 = 10;
 
         // Operadores

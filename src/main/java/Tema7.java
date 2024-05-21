@@ -1,19 +1,28 @@
 public class Tema7 {
 
     public static void main(String[] args) {
+
+
+
         // Ejemplo de if-else
-        int numero = 10;
+        int numero = -5000;
+
+
         // Condicional que verifica si el número es positivo, negativo o cero
         if (numero > 0) {
             System.out.println("El número es positivo");
-        } else if (numero < 0) {
+        }
+        else if (numero < 0) {
             System.out.println("El número es negativo");
         } else {
             System.out.println("El número es cero");
         }
 
         // Ejemplo de switch
-        int dia = 3;
+        int dia = 4;
+
+
+
         // Utiliza switch para seleccionar y mostrar el nombre del día de la semana basado en el valor de dia
         switch (dia) {
             case 1:
@@ -43,7 +52,10 @@ public class Tema7 {
         }
 
         // Ejemplo de while
+
         int contador = 1;
+
+
         // Bucle while que imprime el valor de contador mientras sea menor o igual a 5
         while (contador <= 5) {
             System.out.println("Contador: " + contador);
@@ -52,6 +64,8 @@ public class Tema7 {
 
         // Ejemplo de do-while
         int numeroDoWhile = 1;
+
+
         // Bucle do-while que imprime el valor de numeroDoWhile al menos una vez y continúa mientras sea menor o igual a 5
         do {
             System.out.println("Número en do-while: " + numeroDoWhile);
@@ -60,9 +74,16 @@ public class Tema7 {
 
         // Ejemplo de for
         // Bucle for que imprime el valor de i desde 1 hasta 5
+
         for (int i = 1; i <= 5; i++) {
+
             System.out.println("i en for: " + i);
+
         }
+
+        int cajaentero = 1;
+
+
 
         // Ejemplo de foreach (usando un arreglo)
         int[] numeros = {1, 2, 3, 4, 5};
