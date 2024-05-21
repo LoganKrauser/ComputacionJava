@@ -1,6 +1,7 @@
 package Tema6;
 
 // Definición de la clase Persona
+//los usuarios se van a agregar como personas
 public class Persona {
     // Atributos de la clase
     private String nombre; // Atributo privado para almacenar el nombre de la persona
