@@ -4,13 +4,16 @@ import java.util.HashSet;
 import java.util.Random;
 
 public class Tema8 {
+
     public static void main(String[] args) {
+
+
         // Ejemplo de boxing: convierte un int primitivo a un Integer objeto
         int i = 10;
         Integer boxedInt = i; // Autoboxing
 
         // Ejemplo de unboxing: convierte un Integer objeto a un int primitivo
-        Integer integerObject = new Integer(10);
+        Integer integerObject = new Integer(50);
         int unboxedInt = integerObject; // Auto-unboxing
 
         // Ejemplo de String y formateo de String
@@ -19,13 +22,15 @@ public class Tema8 {
         System.out.println(saludo);
 
         // Ejemplo de java.lang.Math
-        double raizCuadrada = Math.sqrt(16); // Calcula la raíz cuadrada de 16
-        System.out.println("Raíz cuadrada de 16: " + raizCuadrada);
-        double potencia = Math.pow(2, 3); // 2 elevado a la potencia de 3
+        double raizCuadrada = Math.sqrt(32); // Calcula la raíz cuadrada de 16
+        System.out.println("Raíz cuadrada de 32: " + raizCuadrada);
+        double potencia = Math.pow(2, 4); // 2 elevado a la potencia de 3
         System.out.println("2 elevado a 3 es: " + potencia);
+        double redondear = Math.round(5.5);
+        System.out.println("numero redondeado " + redondear);
 
         // Ejemplo de java.lang.System
-        long tiempoActual = System.currentTimeMillis(); // Obtiene el tiempo actual en milisegundos
+        long tiempoActual = System.nanoTime(); // Obtiene el tiempo actual en milisegundos
         System.out.println("Tiempo actual en milisegundos: " + tiempoActual);
 
         // Ejemplo de ArrayList
@@ -35,9 +40,15 @@ public class Tema8 {
         System.out.println("ArrayList: " + lista);
 
         // Ejemplo de HashMap
-        HashMap<String, Integer> mapa = new HashMap<>();
-        mapa.put("clave1", 100); // Agrega un par clave-valor al mapa
-        mapa.put("clave2", 200);
+        HashMap<String, String> mapa = new HashMap<>();
+        mapa.put("JUAN", "Monterrey"); // Agrega un par clave-valor al mapa
+        mapa.put("PEDRO", "GUADALUPE");
+        mapa.put("PABLO", "SALTILLO");
+        mapa.put("ANA", "ENSENADA");
+
+
+        String clave = mapa.get("PABLO");
+        System.out.println("EL USUARIO ES DE LA SIGUIENTE CIUDAD: " + clave);
         System.out.println("HashMap: " + mapa);
 
         // Ejemplo de HashSet
@@ -47,8 +58,8 @@ public class Tema8 {
         System.out.println("HashSet: " + conjunto);
 
         // Ejemplo de java.util.Random
-        Random random = new Random();
-        int numeroAleatorio = random.nextInt(100); // Genera un número aleatorio entre 0 y 99
+        Random aleatorio = new Random();
+        int numeroAleatorio = aleatorio.nextInt(100); // Genera un número aleatorio entre 0 y 99
         System.out.println("Número aleatorio: " + numeroAleatorio);
     }
 }

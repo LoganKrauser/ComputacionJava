@@ -1,0 +1,2 @@
+Este es un archivo de texto que se va a copiar hacia otro archivo
+Este es un texto adicional. que se va a agregar al final
